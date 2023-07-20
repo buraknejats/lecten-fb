@@ -1,0 +1,78 @@
+h1, h2, h3, h4, h5, h6,a, .font-heading, .display-1, .display-2, .heading-lg, .heading-sm-1 {
+    color: #05264E !important;
+}
+
+@media screen and (min-width:1000px) {
+    .search-bar{
+        max-width: 1500px;
+        margin: auto;
+    }
+}
+
+@media screen and(max-width:700px) {
+    .footer-group{
+        padding-top: 100px !important;
+    }
+}
+  .overflow-hidden ul {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        list-style: none;
+    }
+
+
+    .overflow-hidden img {
+        margin-bottom: 10px;
+        border-radius: 8px; 
+    }
+  
+.slider-arbeitgeber{
+    display: flex;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.slider-firm{
+    border: 0.3px solid #E0E6F7;
+    border-radius: 8px;
+    padding: 1rem;
+}
+
+.p-30{
+    padding: 6rem;
+}
+
+
+.card-grid-2{
+    border-radius: 8px;
+    border: 1px solid #E0E6F7;
+    overflow: hidden;
+    margin-bottom: 24px;
+    position: relative;
+    background: #FFFF;
+}
+
+hr{
+    max-width: 100%; 
+    margin: auto !important;
+}
+
+.card-grid-2-image-left {
+    padding: 30px 20px 15px 40px;
+
+}
+
+
+/* job detail */
+
+.box-border-single{
+    border: 1px solid #E0E6F7; 
+}
+.card-block-info {
+    padding: 5px 38px 20px 38px;
+}
+.footer-group{
+    margin-left: 7% !important;
+}

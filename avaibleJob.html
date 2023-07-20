@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://npmcdn.com/flickity@2/dist/flickity.pkgd.js"></script>
+<link rel="stylesheet" href="./style.css">
+
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.7.0/flowbite.min.css" rel="stylesheet" />
+
+    <title>Document</title>
+</head>
+<body>
+    
+
+    <section class=" bg-no-repeat bg-cover bg-center bg-transparent bg-blend-multiply">
+        <div class="relative py-8 pt-24 px-4 mx-auto max-w-screen-xl text-white xl:px-0 z-1">
+            <div class="  lg:mb-0">
+                <h6 class="mb-4 text-2xl font-bold tracking-tight leading-tight text-black  text-center">22 jobs Avaible Now</h6>
+                <p class=" font-light text-black  md:text-sm lg:text-sm text-center">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ea, eaque.</p>    
+            </div> 
+            
+        </div>
+        <div class="search-bar">
+        <form action="#" class="sm:grid md:flex justify-center  gap-y-4 mt-8  bg-white rounded lg:gap-x-4 lg:grid-cols-7 ">
+            <div class="lg:col-span-3">
+                <label for="location-form" class="sr-only">Location</label>
+                <div class="relative">
+                    <div class="flex absolute inset-y-0  items-center pl-3 pointer-events-none">
+                        <svg class="w-[20px] h-[20px] text-gray-800 dark:text-gray" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" viewBox="0 0 20 20">
+                            <path stroke="currentColor" stroke-linecap="round" stroke-width="1" d="M1 10c1.5 1.5 5.25 3 9 3s7.5-1.5 9-3m-9-1h.01M2 19h16a1 1 0 0 0 1-1V6a1 1 0 0 0-1-1H2a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1ZM14 5V3a2 2 0 0 0-2-2H8a2 2 0 0 0-2 2v2h8Z"/>
+                          </svg>                </div>
+                    <input type="text" id="job-form" class="bg-transparent border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full pl-10 p-2.5  dark:bg-transparent dark:border-gray-300 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500" placeholder="Beruf, Fachrichtung, Firma">
+                </div>
+                
+            </div>
+            <div class="relative">
+                <div class="flex absolute inset-y-0  items-center pl-3 pointer-events-none">
+                    <svg class="w-5 h-5 text-gray-500 dark:text-gray-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z" clip-rule="evenodd"></path></svg>
+                </div>
+                <input type="text" id="location-form" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full pl-10 p-2.5  dark:bg-transparent dark:border-gray-300 dark:placeholder-gray-400 dark:text-gray dark:focus:ring-primary-500 dark:focus:border-primary-500" placeholder="Ort,PLZ">
+            </div>
+            <div class="lg:col-span-1">
+                <label for="guests" class="sr-only">Select number of guests</label>
+                <select id="guests" class="bg-transparent border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5 dark:bg-transparent dark:border-gray-300 dark:placeholder-gray-400 dark:text-gray dark:focus:ring-primary-500 dark:focus:border-primary-500">
+                    <option>5 km</option>
+                    <option>10 km</option>
+                    <option>20 km</option>
+                    <option>30 km</option>
+                    <option>50 km</option>
+                    <option>100 km</option>
+                </select>
+            </div>
+            <button type="submit" class="w-full sm:pt-2 lg:col-span-2 justify-center md:w-auto text-white bg-primary-700 hover:bg-primary-800 focus:ring-4 focus:outline-none focus:ring-primary-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-700 dark:hover:bg-primary-700 dark:focus:ring-primary-800 inline-flex items-center">
+                <svg class="mr-2 -ml-1 w-5 h-5" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8zM2 8a6 6 0 1110.89 3.476l4.817 4.817a1 1 0 01-1.414 1.414l-4.816-4.816A6 6 0 012 8z" clip-rule="evenodd"></path></svg>
+                Search
+            </button>
+        </form>
+    
+    </div>
+      </section>
+
+<div class="pt-28">
+    <hr class="hr flex m-auto ">
+</div>
+
+      <section class="section-box mt-12">
+        <div class="container m-auto">
+            <div class="flex flex-row-reverse">
+                <div class=" col-12 float-right">
+                    <div class="content-page">
+                        <div class="box-filters-job">
+                            <div class="flex">
+                                <div class="col-xl-6 col-lg-5">
+                                </div>
+                                <div class="col-xl-6 col-lg-7 text-lg-end mt-sm-15">
+                                    <div class="box-border">
+    
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-12 col-12 container-job">
+                        <div class="card-grid-2 jobs-list">
+                            <div class="flex">
+                                <div class="col-lg-6 col-md-6 col-sm-12">
+                                    <div class="card-grid-2-image-left flex relative">
+                                        <div class="image-box"><img style="height:52px;" src="https://www.jobroboter.de/anzeigen/logos/leica.jpg" alt="jobBox"></div>
+                                        <div class="right-info"><a class="name-job" href="">Leitz-Park Marketing GmbH</a><span class="location-small">Wetzlar</span></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-block-info inline-block w-full">
+                                <h4><a href="/Home/JobDetails?jobid=5521379">Verkaufsleiter*in für den Leica Store Wetzlar (all genders)</a></h4>
+                                <div class="mt-5"><span class="card-time"><span>28.06.2023</span></span></div>
+                                <p class="font-sm color-text-paragraph mt-10">Die Leica Camera AG ist ein traditionsreiches Unternehmen der optischen Industrie, das sich auf die Entwicklung, Produktion und den Vertrieb von Kameras, Objektiven, Ferngläsern und Spektiven im hochpreisigen Premium-Segment konzentriert. Das Unternehmen...</p>
+                                <div class="card-2-bottom mt-20">
+                                    <div class="flex">
+                                        <!-- Additional content here -->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="paginations">
+                        <ul class="pager">
+                            <li><span class="pager-prev"></span></li>
+    
+                            <li><a class="pager-number active" href="/Firmen/FirmenJobList?jobid=3204458&amp;page=1">1</a></li>
+    
+                            <li><span class="pager-next"></span></li>
+                        </ul>
+                    </div>
+    
+    
+                </div>
+    
+    
+            </div>
+    
+    
+    
+        </div>
+    
+    </section>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.7.0/flowbite.min.js"></script>
+
+</body>
+</html>
